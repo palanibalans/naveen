@@ -1,0 +1,69 @@
+
+#contact{
+    margin-left: -20%;
+    margin-top: 11%;
+}
+#contact .info {
+    width: 100%;
+   
+  }
+  
+  
+  
+  #contact .info i {
+    font-size: 20px;
+    color: #ffffff;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background:  #FBBC05;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  
+  
+  
+  #contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #34A853; 
+  }
+  
+  #contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color:white;
+  }
+  
+  #contact .info .email, #contact .info .phone {
+    margin-top: 40px;
+  }
+  
+  #contact .info .email:hover i, #contact .info .address:hover i, #contact .info .phone:hover i {
+    background: #7B0099;
+    color: #fff;
+  }
+  
+
+  @media screen and (max-width: 600px) {
+
+    #contact{
+        margin-left: -20%;
+        margin-top: 11%;
+        width: 50%;
+    }
+
+    .map1{
+        width: 300%;
+        height: 300px;
+    }
+
+
+  }
